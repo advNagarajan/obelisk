@@ -2,10 +2,14 @@
 __pycache__/
 *.pyc
 
-# Generated artifacts
-artifacts/
+# Layer debug / artifacts
 layer2_debug/
+artifacts/
 
-# Generated text outputs
+# Generated outputs
 artifact_descriptor.txt
 artifact_profile.txt
+artifact_launch_plans.txt
+
+# Generated emulator configs
+generated_dosbox_*.conf
